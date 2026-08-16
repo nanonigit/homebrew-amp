@@ -1,10 +1,10 @@
-cask "vibe" do
+cask "amp" do
   version "0.20.0"
   sha256 "37cb341f950e9a1d2f690a763cb160c5fceea6a86ab63ffbfefc820dafe06642"
 
   url "https://github.com/nanonigit/Vibe/releases/download/v#{version}/amp-v#{version}-macos-arm64.zip"
   name "amp"
-  desc "Local music library manager and player (formerly Vibe)"
+  desc "Local music library manager and player"
   homepage "https://github.com/nanonigit/Vibe"
 
   livecheck do
