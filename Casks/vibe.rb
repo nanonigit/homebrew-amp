@@ -1,6 +1,6 @@
 cask "vibe" do
-  version "0.18.0"
-  sha256 "035d7b12f08e5820ae0a52c74e147ba55b6e3e195b3aa8c769ef1a32f361b372"
+  version "0.19.0"
+  sha256 "784be26d7706bf97825a9c94f2c800b886863de929d3aab40f0aeaa2e27eb542"
 
   url "https://github.com/nanonigit/Vibe/releases/download/v#{version}/Vibe-v#{version}-macos-arm64.zip"
   name "Vibe"
