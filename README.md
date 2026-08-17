@@ -1,13 +1,11 @@
-# Homebrew Tap for amp (formerly Vibe)
+# Homebrew Tap for amp
 
-This repository is the official Homebrew Tap for [amp](https://github.com/nanonigit/Vibe), a local music library manager and player for macOS.
+This repository is the official Homebrew Tap for [amp](https://github.com/nanonigit/amp), a local music library manager and player for macOS.
 
 ## Install
 
 ```bash
-brew install --cask nanonigit/vibe/amp
-# or
-brew install --cask nanonigit/vibe/vibe
+brew install --cask nanonigit/amp/amp
 ```
 
 The command automatically taps this repository and installs `amp.app` into `/Applications`.
@@ -39,10 +37,10 @@ Library data and offline cache under `Application Support/MassiveMusic` are inte
 The one-line install above is recommended. To add the Tap separately:
 
 ```bash
-brew tap nanonigit/vibe
+brew tap nanonigit/amp
 brew install --cask amp
 ```
 
 ## Release source
 
-The Cask downloads the versioned Apple Silicon ZIP from [amp GitHub Releases](https://github.com/nanonigit/Vibe/releases). Checksums are pinned in [`Casks/amp.rb`](Casks/amp.rb) and [`Casks/vibe.rb`](Casks/vibe.rb).
+The Cask downloads the versioned Apple Silicon ZIP from [amp GitHub Releases](https://github.com/nanonigit/amp/releases). Checksums are pinned in [`Casks/amp.rb`](Casks/amp.rb).
