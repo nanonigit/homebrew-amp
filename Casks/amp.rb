@@ -1,6 +1,6 @@
 cask "amp" do
-  version "0.21.0"
-  sha256 "dafb7bcf133c1099c52dea1dd043b4a2973c83e34bbde32ddd04da85c85bc2bd"
+  version "0.22.0"
+  sha256 "0d9426c1c8f290519d59211e100a58a4c1384e12f55eb4d7d687607cde05bb66"
 
   url "https://github.com/nanonigit/amp/releases/download/v#{version}/amp-v#{version}-macos-arm64.zip"
   name "amp"
